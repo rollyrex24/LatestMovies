@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PISO WIFI/LOAD 2.4G</title>
+  <style>
+    body {
+      text-align: center; /* Center all text */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: black; /* Set the background color back to black */
+      background-image: url('wp11089675.jpg'); /* Add your background image URL here */
+      background-repeat: no-repeat; /* Set the background image to not repeat */
+      background-size: cover; /* Adjust the background image size to cover the entire container */
+    }
+
+    h1 {
+      color: #FFD700; /* Golden yellow color for the "You are now Connected!!" heading */
+      font-weight: bold;
+      font-size: 48px; /* Increased font size for the heading */
+    }
+
+    .multi-color-text {
+      background: linear-gradient(45deg, #FFA500, #FFD700, #FFA500, #FFD700, #FFA500, #FFD700); /* Brighter color gradient for the text */
+      background-size: 1000%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: gradient 15s ease infinite;
+      font-weight: bold;
+    }
+
+    .multi-color-button {
+      background: linear-gradient(45deg, #FFA500, #FFD700, #FFA500, #FFD700, #FFA500, #FFD700); /* Brighter color gradient for the button */
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 24px; /* Increased font size for the button */
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-bottom: 10px; /* Add some space between the buttons */
+    }
+
+    .multi-color-button:hover {
+      background: #FFD700; /* Change to a specific color on hover if desired */
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 1000%;
+      }
+    }
+
+    /* Media Query for Larger Viewports on Desktop */
+    @media (min-width: 1025px) {
+      h1 {
+        font-size: 72px; /* Increased font size for larger viewports */
+      }
+
+      .multi-color-button {
+        font-size: 36px; /* Increased font size for the button on desktop */
+      }
+
+      .or-text {
+        font-size: 48px; /* Increased font size for the "OR" text on desktop */
+        font-weight: bold; /* Make the "OR" text bold */
+        color: #FF4500; /* Set the color of the "OR" text to a brighter shade of red */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="multi-color-text">You are now Connected!!</h1>
+  <h2 class="multi-color-text">Free Watch Latest Movies!</h2>
+  <button class="multi-color-button" onclick="window.location.href='https://www.mediafire.com/file/vavxvmz067efsjm/PisoWifi2.4gBoxMovies.apk/file'">
+    Download App
+  </button>
+
+  <h3 class="multi-color-text">OR</h3>
+
+  <button class="multi-color-button" onclick="window.location.href='https://play.google.com/store/apps/details?id=xyz.gl.topflix'">
+    Download App to Playstore
+  </button>
+</body>
+</html>
